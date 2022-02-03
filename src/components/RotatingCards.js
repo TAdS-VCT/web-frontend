@@ -17,6 +17,7 @@ export default function RotatingCards({ name, category }) {
                 description={item.description}
                 shortform={item.shortform}
                 facebook_link={item.facebook_link}
+                id={item.id}
               />
             );
           })}

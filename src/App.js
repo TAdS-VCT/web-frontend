@@ -25,6 +25,7 @@ import Sports from "./pages/committees/2021/sports";
 import Welfare from "./pages/committees/2021/welfare";
 import Socult from "./pages/committees/2021/Socult";
 import AOS from "aos";
+import SocTemplate from "./components/Sidebar/SocTemplate";
 import "aos/dist/aos.css";
 
 function App() {
@@ -57,6 +58,7 @@ function App() {
           <Route exact path="/ContactUs" component={ContactUs} />
           <Route exact path="/faq" component={faq} />
           <PrivateRoute exact path="/dashboard" component={Dashboard} />
+          <Route exact path="/societies/:id" component={SocTemplate}/>
           <Route component={NotFound} />
         </Switch>
       </ScrollToTop>

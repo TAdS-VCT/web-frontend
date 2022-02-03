@@ -1,6 +1,7 @@
 export default {
   data: [
     {
+      id: 0,
       img: "https://github.com/tsg-iitkgp/tsg-site/blob/main/public/societies/swg.png",
       name: "Student Welfare Group",
       description:
@@ -23,6 +24,7 @@ export default {
     },
 
     {
+      id:1,
       name: "Technology Literary Society",
       description:
         "The Technology Literary Society, IIT Kharagpur abbreviated as TLS, is IIT Kharagpurs literary organization involving a group of enthusiastic English & Hindi writers, and designers. The society used to publish the monthly wall magazine Hang On, and the literary newsletter KGP Pulse but they have been discontinued in favour of using social media to reach a larger population.TLS continues to publish the annual campus magazine Alankar.",
@@ -39,6 +41,7 @@ export default {
     },
 
     {
+      id: 2,
       name: "Debating Society",
       description:
         "The Debating Society, IIT Kharagpur, abbreviated as DebSoc, is IIT Kharagpur's competitive debate organization. It participates with consistent success in Parliamentary Debates across the world, and had organized the IIT Kharagpur Model United Nations Conference and the IIT Kharagpur Parliamentary Debate in previous years.",
@@ -58,6 +61,7 @@ export default {
     },
 
     {
+      id: 3,
       name: "Technology Filmmaking & Photography Society",
       description:
         "TFPS, is the official club of IIT Kharagpur for students interested in filmmaking, photography and film-appreciation. Founded in 2010 by a few film enthusiasts, TFPS has come a long way in promoting filmmaking and film appreciation among the campus fraternity as well as outside. It has also been a launchpad for students interested in pursuing careers in the Entertainment Industry.",

@@ -20,6 +20,7 @@ export default function Societies() {
           {Data.data
             .filter((data) => data.category === "Socult")
             .map((item, i) => {
+              
               while (i < 5) {
                 return (
                   <RotatingCard
@@ -27,7 +28,9 @@ export default function Societies() {
                     description={item.description}
                     shortform={item.shortform}
                     facebook_link={item.facebook_link}
+                    id={item.id}
                   />
+                  
                 );
               }
             })}

@@ -1,10 +1,12 @@
 import React from "react";
 import Styles from "../styles/components/soc.module.css";
+import Data from '../data/soc'
+
 export default function RotatingCard({
   shortform,
   name,
   description,
-  facebook_link,
+  id,
 }) {
   return (
     <div className={Styles.card}>
@@ -25,7 +27,7 @@ export default function RotatingCard({
           <a
             className={`${Styles.button} ${Styles.a1}`}
             title="Lorem Ipsum"
-            href={facebook_link}
+            href={"/societies/" + id}
           >
             Learn More
           </a>
