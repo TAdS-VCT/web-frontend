@@ -11,14 +11,16 @@ export default function RotatingCard({
   return (
     <div className={Styles.card}>
       <div className={Styles.cardfront}>
+      
         <img
           className={Styles.img1}
           src={`/media/images/societies/${shortform}.png`}
           loading="lazy"
           alt="image01"
-          width={600}
-          height={600}
+          width={700}
+          height={800}
         />
+        <h1 style={{fontSize: "25px"}}>{name}</h1>
       </div>
       <div className={Styles.cardback}>
         <div className={Styles.cardbackcontent}>
